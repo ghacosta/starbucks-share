@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useRef, useState } from "react";
 import { initializeApp } from "firebase/app";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
